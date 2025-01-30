@@ -10,7 +10,7 @@ load_dotenv()
 def test_vision():
     try:
         # Configure Gemini with API key
-        api_key = "AIzaSyCsyoIZg9uIjsuabXOYAFpZR97uu1Gl974"
+        api_key = 
         genai.configure(api_key=api_key)
         
         # First test text generation
