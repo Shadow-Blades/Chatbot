@@ -1,0 +1,6 @@
+import google.generativeai as genai
+
+genai.configure(api_key="AIzaSyCsyoIZg9uIjsuabXOYAFpZR97uu1Gl974")
+
+response = genai.chat("Hello, how are you?")
+print(response)
