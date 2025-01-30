@@ -8,7 +8,7 @@ load_dotenv()
 
 try:
     # Get API key from environment
-    api_key = "AIzaSyCsyoIZg9uIjsuabXOYAFpZR97uu1Gl974"  # Using your existing API key
+    api_key =  # Using your existing API key
     print("Configuring Gemini...")
     
     # Configure Gemini
